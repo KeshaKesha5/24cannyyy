@@ -16,7 +16,7 @@ if last_commit:
 
 run_git_command(["git", "add", "."])
 
-commit_message = "Автоматизированный commit для ученика 24"
+commit_message = "Автоматизированный commit для 24"
 run_git_command(["git", "commit", "-m", commit_message])
 
 push_result = run_git_command(["git", "push", "-u", "origin", "master"])
